@@ -41,12 +41,17 @@ Para calcular a pressão a partir da densidade:
    />
 </a>
 
+<br/>
+<br/>
+
+* **Legenda:** Se a densidade (***p***) da partícula aumenta, a pressão (***P***) dispara de forma exponencial. ***B*** é a rigidez.
  
 ### 2. Funções Kernel (Suavização)
 - **Kernel Poly6** (para densidade): Garante suavidade e evita singularidades.
 - **Kernel Spiky** (para gradiente de pressão): Utilizado no cálculo das forças para melhor estabilidade numérica.
 
 ### 3. Cálculo da Densidade
+A densidade de um partícula é a soma das massas de todas as partículas vizinhas, ponderada por uma função de suavização (Kernel):
 
 <a>
    <img
@@ -58,8 +63,13 @@ Para calcular a pressão a partir da densidade:
    />
 </a>
 
-### 4. Forças de Pressão e Viscosidade
-A aceleração de cada partícula é calculada somando as contribuições dos vizinhos:
+<br/>
+<br/>
+
+* **Legenda:** Para a Partícula ***i***, somamos a contribuição de massa (***mj***) de cada vizinho ***j***. Quanto mais próximos, maior o peso definido pelo Kernel ***W***.
+
+### 4. Força de Pressão
+Essa é a força que impede o fluido de se comprimir infinitamente e gera as ondas:
 
 <a>
    <img
@@ -71,6 +81,28 @@ A aceleração de cada partícula é calculada somando as contribuições dos vi
    />
 </a>
 
+<br/>
+<br/>
+
+* **Legenda:** A aceleração (***ai***) causada pela pressão é o gradiente (a "inclinação") do Kernel. Se a pressão da partícula ***i*** é maior que a do vizinho ***j***, ela será empurrada para longe dele.
+
+### 5. Força de Viscosidade
+Essa força imita o atrito interno da água, fazendo as partículas com velocidades diferentes se igualarem:
+
+<a>
+   <img
+      alt="Image4"
+      width="260px"
+      style="padding-right:10px;"
+      align="center"
+      src="https://github.com/user-attachments/assets/44d45613-1f41-4f8d-8094-b4f5c64910ce" 
+   />
+</a>
+
+<br/>
+<br/>
+
+* **Legenda:** Se o vizinho está mais rápido que você, ele puxa você para frente. Se está mais lento, ele freia você. O fator ***v*** é a constante de viscosidade.
 ---
 
 ## ⚙️ Pré-requisitos
