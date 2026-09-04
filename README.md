@@ -64,10 +64,10 @@ A aceleração de cada partícula é calculada somando as contribuições dos vi
 <a>
    <img
       alt="Image3"
-      width="250px"
+      width="260px"
       style="padding-right:10px;"
       align="center"
-      src="https://github.com/user-attachments/assets/cc684800-f6cc-483b-89e5-e7eff46cac8c](https://github.com/user-attachments/assets/c6181b35-7b33-4c11-a740-d84128c0f772" 
+      src="https://github.com/user-attachments/assets/44d45613-1f41-4f8d-8094-b4f5c64910ce" 
    />
 </a>
 
