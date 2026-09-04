@@ -74,7 +74,7 @@ Essa é a força que impede o fluido de se comprimir infinitamente e gera as ond
 <a>
    <img
       alt="Image3"
-      width="260px"
+      width="280px"
       style="padding-right:10px;"
       align="center"
       src="https://github.com/user-attachments/assets/44d45613-1f41-4f8d-8094-b4f5c64910ce" 
@@ -92,10 +92,10 @@ Essa força imita o atrito interno da água, fazendo as partículas com velocida
 <a>
    <img
       alt="Image4"
-      width="260px"
+      width="280px"
       style="padding-right:10px;"
       align="center"
-      src="https://github.com/user-attachments/assets/44d45613-1f41-4f8d-8094-b4f5c64910ce" 
+      src="https://github.com/user-attachments/assets/4e364df5-dedc-45f4-8fa9-1d2b39b355e1" 
    />
 </a>
 
