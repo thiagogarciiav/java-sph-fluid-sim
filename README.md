@@ -54,7 +54,7 @@ Para calcular a pressão a partir da densidade:
       width="250px"
       style="padding-right:10px;"
       align="center"
-      src="https://github.com/user-attachments/assets/cc684800-f6cc-483b-89e5-e7eff46cac8c](https://github.com/user-attachments/assets/248611ee-c7d7-4dff-9254-ba3ee0babc75" 
+      src="https://github.com/user-attachments/assets/27fd84f0-9a24-4053-8127-ba11cfef0389" 
    />
 </a>
 
