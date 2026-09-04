@@ -34,7 +34,7 @@ Para calcular a pressão a partir da densidade:
 <a>
    <img
       alt="Image1"
-      width="40px"
+      width="250px"
       style="padding-right:10px;"
       align="center"
       src="https://github.com/user-attachments/assets/cc684800-f6cc-483b-89e5-e7eff46cac8c" 
@@ -51,7 +51,7 @@ Para calcular a pressão a partir da densidade:
 <a>
    <img
       alt="Image2"
-      width="40px"
+      width="250px"
       style="padding-right:10px;"
       align="center"
       src="https://github.com/user-attachments/assets/cc684800-f6cc-483b-89e5-e7eff46cac8c](https://github.com/user-attachments/assets/248611ee-c7d7-4dff-9254-ba3ee0babc75" 
@@ -64,7 +64,7 @@ A aceleração de cada partícula é calculada somando as contribuições dos vi
 <a>
    <img
       alt="Image3"
-      width="40px"
+      width="250px"
       style="padding-right:10px;"
       align="center"
       src="https://github.com/user-attachments/assets/cc684800-f6cc-483b-89e5-e7eff46cac8c](https://github.com/user-attachments/assets/c6181b35-7b33-4c11-a740-d84128c0f772" 
